@@ -1,12 +1,14 @@
-<template>
+<template>   
   <div>
-    <h1>Shop</h1>
+    <div>
+        <h1>Shop</h1>
+    </div>    
   </div>
 </template>
 
 <script>
 export default {
-  name: 'shop',
+  name: 'Shop',
     data () {
        return {
       page: 'shop'
@@ -16,4 +18,7 @@ export default {
 </script>
 
 <style>
+h1 {
+  margin-top: 5em;
+}
 </style>

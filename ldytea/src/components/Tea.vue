@@ -16,4 +16,7 @@ export default {
 </script>
 
 <style>
+h1 {
+  margin-top: 5em;
+}
 </style>

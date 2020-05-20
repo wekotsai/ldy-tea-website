@@ -1,18 +1,16 @@
 <template>
   <div id="app">
-    <Home />
+    <img class="logo" src="@/assets/logo.png" />
     <Menu />
   </div>
 </template>
 
 <script>
-import Home from './components/Home';
 import Menu from './components/Menu';
 
 export default {
   name: 'app',
   components: {
-    Home,
     Menu
   }
 }
@@ -26,5 +24,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.logo {
+    width: 11em;
+    position: absolute;
+    top: 4.8em;
+    transform: translate(-50%, -50%);
 }
 </style>

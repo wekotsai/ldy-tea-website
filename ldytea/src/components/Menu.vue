@@ -1,22 +1,13 @@
 <template>
   <div>
     <Slide>
-        <a id="home" href="#">
-            <span >Home</span>
-        </a>
-        <a id="Shop" href="#">
-            <span >Shop</span>
-        </a>
-        <a id="tea" href="#">
-            <span>Our Tea</span>
-        </a>
-        <a id="about" href="#">
-            <span>About Us</span>
-        </a>
-        <a id="contact" href="#">
-            <span>Contact Us</span>
-        </a>
+        <router-link to="/home">Home</router-link>
+        <router-link to="/shop">Shop</router-link>
+        <router-link to="/tea">Our Tea</router-link>
+        <router-link to="/about">About Us</router-link>
+        <router-link to="/contact">Contact</router-link>
     </Slide>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -37,6 +28,11 @@ export default {
     homeClick() {
       this.page = 'home'
     }
+  },
+    props: ['myProps'],
+  created() {
+    // eslint-disable-next-line
+    console.log(this.myProps);
   }
 }
 </script>
@@ -54,6 +50,10 @@ export default {
 
 .bm-menu {
   background-color:rgb(58, 58, 58, 0.85);
+}
+
+.bm-item-list a {
+  color: #ffffff;
 }
 
 .bm-item-list a:hover {

@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'about',
+  name: 'About',
     data () {
        return {
       page: 'about'
@@ -16,4 +16,7 @@ export default {
 </script>
 
 <style>
+h1 {
+  margin-top: 5em;
+}
 </style>

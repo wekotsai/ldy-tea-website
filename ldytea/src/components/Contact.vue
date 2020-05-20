@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'contact',
+  name: 'Contact',
     data () {
        return {
       page: 'contact'
@@ -16,4 +16,7 @@ export default {
 </script>
 
 <style>
+h1 {
+  margin-top: 5em;
+}
 </style>
