@@ -6,6 +6,15 @@
       <a id="home" href="#">
         <span>Home</span>
       </a>
+      <a id="aboutus" href="#">
+        <span>About Us</span>
+      </a>
+      <a id="tea" href="#">
+        <span>Our Tea</span>
+      </a>
+      <a id="tea" href="#">
+        <span>Contact Us</span>
+      </a>
     </Slide>
   </div>
 </template>
@@ -51,5 +60,32 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.bm-burger-bars {
+  background-color: #373a47;
+  border-radius: 3px;
+}
+
+.bm-burger-button {
+  left: 28px;
+  width: 25px;
+}
+
+.bm-menu {
+  width: 280px;
+  background-color:rgb(58, 58, 58, 0.85);
+}
+
+.bm-item-list a:hover {
+  color: #ffffff;
+}
+
+.bm-cross {
+  background-color: transparent;
+}
+
+.line-style {
+  height: 8%;
 }
 </style>
