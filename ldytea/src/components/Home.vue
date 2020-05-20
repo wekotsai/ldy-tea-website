@@ -5,13 +5,13 @@
 </template>
 
 <script>
+
 export default {
-    name: "Banner",
-    props: ["navbar"]
+    name: "Home"
 }
 </script>
 
-<style scoped>
+<style>
 .container {
     background-image: url('~@/assets/banner.jpg');
     background-repeat: no-repeat;
