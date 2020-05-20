@@ -1,6 +1,8 @@
 <template>
-    <div class="menu">
-        <p>{{navbar.title}}</p>
+    <div>
+        <ul class="menu">
+            <!-- <li>{{navbar.title}}</li> -->
+        </ul>
     </div>
 </template>
 
@@ -12,5 +14,8 @@ export default {
 </script>
 
 <style scoped>
-
+    ul.menu {
+        text-align: left;
+        list-style-type: none;
+    }
 </style>
