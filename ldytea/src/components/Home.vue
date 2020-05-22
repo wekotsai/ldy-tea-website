@@ -13,7 +13,6 @@ export default {
 </script>
 
 <style scoped>
-
 .container {
     background-image: url('~@/assets/home.jpg');
     background-repeat: no-repeat;

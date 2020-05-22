@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>About us</h1>
+    <p>蔡(Tsai) 是希臘文的 Tea (τσάι)。我們全家人都特別的愛茶。</p>
   </div>
 </template>
 
@@ -17,6 +18,6 @@ export default {
 
 <style scoped>
 h1 {
-  margin-top: 5em;
+  margin-bottom: 2em;
 }
 </style>

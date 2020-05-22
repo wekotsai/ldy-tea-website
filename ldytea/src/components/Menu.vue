@@ -1,11 +1,11 @@
 <template>
   <div>
     <Slide>
-        <router-link to="/home">Home</router-link>
-        <router-link to="/shop">Shop</router-link>
-        <router-link to="/tea">Our Tea</router-link>
-        <router-link to="/about">About Us</router-link>
-        <router-link to="/contact">Contact</router-link>
+      <router-link to="/home">Home</router-link>
+      <router-link to="/tea">Our Tea</router-link>
+      <router-link to="/about">About Us</router-link>
+      <router-link to="/contact">Contact</router-link>
+      <!-- <router-link to="/shop">Shop</router-link> -->
     </Slide>
     <router-view></router-view>
   </div>
@@ -20,7 +20,7 @@ export default {
     Slide
   },
     data () {
-       return {
+      return {
       page: 'menu'
     }
   },
@@ -50,6 +50,8 @@ export default {
 
 .bm-menu {
   background-color:rgb(58, 58, 58, 0.85);
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .bm-item-list a {
