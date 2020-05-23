@@ -34,7 +34,12 @@ h1 {
 
 .teaFields {
   margin: 3.5em 0;
-  width: 100%;
-  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+.teaFields {
+    width: 100%;
+    height: auto;
+  }
 }
 </style>
