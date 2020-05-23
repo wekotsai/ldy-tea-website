@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .container {
-    background-image: url('~@/assets/home.jpg');
+    background-image: url('~@/assets/images/home.jpg');
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 10em;

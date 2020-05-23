@@ -12,9 +12,9 @@
 </template>
 
 <script>
-var image_1 = require('@/assets/teaLeaves.jpg');
-var image_2 = require('@/assets/teaFields.jpg');
-var image_3 = require('@/assets/lishan.jpg')
+var image_1 = require('@/assets/images/teaLeaves.jpg');
+var image_2 = require('@/assets/images/teaFields.jpg');
+var image_3 = require('@/assets/images/lishan.jpg')
 
 export default {
   name: 'Tea',
@@ -32,15 +32,4 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  margin-bottom: 2em;
-}
-
-.story {
-  max-width: 550px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  padding: 0 2em; 
-}
 </style>

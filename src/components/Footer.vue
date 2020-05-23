@@ -13,7 +13,6 @@
           <p><i class="fab fa-facebook mr-3"></i><a href ="https://www.facebook.com/梨大院-Li-Da-Yuan-台灣頂級高山茶-113498920371239/"> FB 粉絲團 </a></p>
           <p><i class="fas fa-envelope mr-3"></i> <a href="mailto:lidayuantea@gmail.com"> lidayuantea@gmail.com </a></p>
           <p><i class="fas fa-phone mr-3"></i>+886 938-609-726</p>
-          <!-- <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p> -->
         </mdb-col>
       </mdb-row>
       <hr />
@@ -50,5 +49,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

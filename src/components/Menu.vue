@@ -45,31 +45,4 @@ export default {
 </script>
 
 <style>
-.bm-burger-bars {
-  background-color: #373a47;
-  border-radius: 3px;
-}
-
-.bm-burger-button {
-  left: 28px;
-  width: 25px;
-}
-
-.bm-menu {
-  background-color:rgb(58, 58, 58, 0.85);
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.bm-item-list a {
-  color: #ffffff;
-}
-
-.bm-item-list a:hover {
-  color: #ffffff;
-}
-
-.line-style {
-  height: 8%;
-}
 </style>
