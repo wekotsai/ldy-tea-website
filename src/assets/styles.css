@@ -30,13 +30,13 @@
 /* MENU */
 
 .bm-burger-bars {
-    background-color: #373a47;
+    background-color: #373a47 !important;
     border-radius: 3px;
 }
 
 .bm-burger-button {
     left: 28px;
-    width: 25px;
+    width: 25px !important;
 }
 
 .bm-menu {
@@ -54,7 +54,7 @@
 }
 
 .line-style {
-    height: 8%;
+    height: 8% !important;
 }
 
 /* GALLERY */

@@ -37,7 +37,7 @@
         <mdb-col md="8" lg="8">
           <p class="text-center text-md-left grey-text"> 
             Copyright © {{ new Date().getFullYear() }}
-            Wéko Tsai. All Rights Reserved
+            Wéko Tsai <br> All Rights Reserved
           </p>
         </mdb-col>
       </mdb-row>

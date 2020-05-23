@@ -7,7 +7,7 @@
         :to="route.path"
       >
         {{route.name}}
-      </router-link>
+      </router-link> 
     </Slide>
     <router-view></router-view>
   </div>
