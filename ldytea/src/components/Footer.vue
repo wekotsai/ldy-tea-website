@@ -4,9 +4,8 @@
     <mdb-container class="text-center text-md-left">
       <mdb-row class="text-center text-md-left mt-3 pb-3">
         <mdb-col md="3" lg="3" xl="3" class="mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">LDY TEA</h6>
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit.</p>
+          <h6 class="text-uppercase mb-4 font-weight-bold">ORDER LDY TEA</h6>
+          <p>加我們的LINE好友 @ldytea <br>便可直接訂購梨大院頂級高山茶</p>
         </mdb-col>
         <hr class="w-100 clearfix d-md-none" />
         <mdb-col md="4" lg="3" xl="3" class="mx-auto mt-3">

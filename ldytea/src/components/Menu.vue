@@ -4,7 +4,7 @@
       <router-link to="/home">Home</router-link>
       <router-link to="/tea">Our Tea</router-link>
       <router-link to="/about">About Us</router-link>
-      <router-link to="/contact">Contact</router-link>
+      <!-- <router-link to="/contact">Contact</router-link> -->
       <!-- <router-link to="/shop">Shop</router-link> -->
     </Slide>
     <router-view></router-view>
