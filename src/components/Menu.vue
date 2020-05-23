@@ -25,9 +25,9 @@ export default {
       return {
       page: 'menu',
       routes: [
-        {name: 'Home', path: "/home"},
-        {name: 'Our Tea', path: "/tea"},
-        {name: 'About Us', path: "/about"}
+        {name: 'Home', path: '/home'},
+        {name: 'Our Tea', path: '/tea'},
+        {name: 'About Us', path: '/about'}
       ]
     }
   },

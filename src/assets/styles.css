@@ -5,66 +5,68 @@
     text-align: center;
     color: rgb(46, 48, 48);
     margin-top: 60px;
-  }
-  
-  .logo {
+}
+
+.logo {
     width: 11em;
     position: absolute;
     top: 4.8em;
     transform: translate(-50%, -50%);
-  }
+}
 
-  h1 {
+.title {
     margin-top: 5em;
     margin-bottom: 2em;
-  }
+}
 
-  .story {
+.story {
     max-width: 550px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
     padding: 0 2em; 
-  }
+}
 
-  /* MENU */
+/* MENU */
 
-  .bm-burger-bars {
+.bm-burger-bars {
     background-color: #373a47;
     border-radius: 3px;
-  }
-  
-  .bm-burger-button {
+}
+
+.bm-burger-button {
     left: 28px;
     width: 25px;
-  }
-  
-  .bm-menu {
+}
+
+.bm-menu {
     background-color:rgb(58, 58, 58, 0.85);
     white-space: nowrap;
     overflow: hidden;
-  }
-  
-  .bm-item-list a {
+}
+
+.bm-item-list a {
     color: #ffffff;
-  }
-  
-  .bm-item-list a:hover {
+}
+
+.bm-item-list a:hover {
     color: #ffffff;
-  }
-  
-  .line-style {
+}
+
+.line-style {
     height: 8%;
-  }
-  
-  .gallery img {
+}
+
+/* GALLERY */
+
+.gallery img {
     margin: 3.5em 0;
     max-width: 680px;
-  }
-  
-  @media only screen and (max-width: 600px) {
-  .gallery img {
-      width: 100%;
-      height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .gallery img {
+        width: 100%;
+        height: auto;
     }
-  }
+}
