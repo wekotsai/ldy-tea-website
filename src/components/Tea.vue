@@ -34,5 +34,7 @@ h1 {
 
 .teaFields {
   margin: 3.5em 0;
+  width: 100%;
+  height: auto;
 }
 </style>
