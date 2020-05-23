@@ -1,11 +1,13 @@
 <template>
   <div>
     <Slide>
-      <router-link to="/home">Home</router-link>
-      <router-link to="/tea">Our Tea</router-link>
-      <router-link to="/about">About Us</router-link>
-      <!-- <router-link to="/contact">Contact</router-link> -->
-      <!-- <router-link to="/shop">Shop</router-link> -->
+      <router-link 
+        v-for="route in routes" 
+        :key="route.path" 
+        :to="route.path"
+      >
+        {{route.name}}
+      </router-link>
     </Slide>
     <router-view></router-view>
   </div>
@@ -21,7 +23,12 @@ export default {
   },
     data () {
       return {
-      page: 'menu'
+      page: 'menu',
+      routes: [
+        {name: 'Home', path: "/home"},
+        {name: 'Our Tea', path: "/tea"},
+        {name: 'About Us', path: "/about"}
+      ]
     }
   },
    methods: {

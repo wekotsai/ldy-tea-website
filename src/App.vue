@@ -39,4 +39,16 @@ export default {
 h1 {
   margin-top: 5em;
 }
+
+.gallery img {
+  margin: 3.5em 0;
+  max-width: 680px;
+}
+
+@media only screen and (max-width: 600px) {
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+}
 </style>

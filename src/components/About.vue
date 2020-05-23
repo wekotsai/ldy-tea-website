@@ -1,7 +1,10 @@
 <template>
   <div>
     <h1>About us</h1>
-    <p>蔡(Tsai) 是希臘文的 Tea (τσάι)。我們全家人都特別的愛茶。</p>
+    <div class="gallery">
+      <p> 蔡(Tsai) 是希臘文的 Tea (τσάι) <br> 我們全家人都特別的愛茶 </p>
+      <img src="@/assets/about.jpg">
+    </div>
   </div>
 </template>
 
