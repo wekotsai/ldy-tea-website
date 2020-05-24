@@ -22,9 +22,9 @@ export default {
        return {
       page: 'tea',
       images: [
-        {src: image_1, key: 1, caption: "Lishan, Taiwan"},
-        {src: image_2, key: 2, caption: "Lishan, Taiwan"},
-        {src: image_3, key: 3, caption: "Lishan, Taiwan"}
+        {src: image_1, key: 1, caption: ''},
+        {src: image_2, key: 2, caption: ''},
+        {src: image_3, key: 3, caption: ''}
       ]
     }
   }
