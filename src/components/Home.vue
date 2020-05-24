@@ -16,7 +16,7 @@ export default {
     background-image: url('~@/assets/images/home.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 10em;
+    margin-top: 5em;
     height: 58em;
 }
 </style>
