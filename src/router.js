@@ -39,5 +39,5 @@ const router = new VueRouter({
       ],
 });
 
-router.replace({ path: '/home', redirect: '/index.html ' })
+router.replace({ path: '/home', redirect: '/' })
 export default router;
