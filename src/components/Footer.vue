@@ -11,7 +11,9 @@
               href="http://line.me/ti/p/~ldytea"
               rel="noopener"
               target="_blank"
-            >ldytea</a>
+            >
+            ldytea
+            </a>
             <br>訂購梨大院頂級高山茶</p>
         </mdb-col>
         <hr class="w-100 clearfix d-md-none" />
@@ -57,7 +59,7 @@ export default {
       mdbCol
    },
     data () {
-       return {
+      return {
       page: 'footer',
       socials: [
         {name: 'FB粉絲團', path: 'https://www.facebook.com/梨大院-Li-Da-Yuan-台灣頂級高山茶-113498920371239/', icon: 'fab fa-facebook mr-3'},

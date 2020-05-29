@@ -7,8 +7,17 @@
     margin-top: 60px;
 }
 
+a {
+    color: black;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #e76120;
+  }
+
 .logo {
-    width: 11em;
+    width: 18em;
     position: absolute;
     top: 4.8em;
     transform: translate(-50%, -50%);
