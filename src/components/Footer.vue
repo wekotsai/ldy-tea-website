@@ -29,7 +29,7 @@
               rel="noopener"
               target="_blank"
             >
-              {{social.name}}
+            {{social.name}}
             </a>
           </p>
         </mdb-col>
