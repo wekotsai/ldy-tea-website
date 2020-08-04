@@ -13,11 +13,12 @@ export default {
 
 <style scoped>
 .container {
-    background-image: url('~@/assets/images/home.jpg');
+    background-image: url('~@/assets/images/teaset.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     margin-top: 15em;
-    height: 58em;
+    height: 50em;
 }
 
 @media only screen and (max-width: 600px) {
