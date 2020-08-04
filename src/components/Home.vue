@@ -24,6 +24,7 @@ export default {
 @media only screen and (max-width: 600px) {
     .container {
        margin-top: 10em;
+       height: 20em;
     }
 }
 </style>
