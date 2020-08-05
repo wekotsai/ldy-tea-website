@@ -13,7 +13,7 @@
         <li>{{ list.item }}</li>
       </ul>
         <p class="teaContact">歡迎
-          <a href="tel:+496170961709">來電 </a>或加
+          <a href="tel:+886938609726">來電 </a>或加
             <a href="http://line.me/ti/p/~ldytea"
                rel="noopener"
                target="_blank">
