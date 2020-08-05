@@ -24,7 +24,7 @@ a:hover {
 }
 
 .title {
-    margin-top: 3em;
+    margin-top: 5em;
     margin-bottom: 2em;
 }
 
@@ -78,7 +78,7 @@ a:hover {
 
 .gallery img {
     margin: 1.5em 0;
-    max-width: 680px;
+    max-width: 880px;
 }
 
 @media only screen and (max-width: 600px) {

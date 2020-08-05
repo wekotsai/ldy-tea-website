@@ -1,6 +1,13 @@
 <template>
   <div id="app">
-    <img class="logo" src="@/assets/images/logoWhite.png" />
+    <!-- <img class="logo" src="@/assets/images/logoWhite.png" />
+    <img class="logo" src="@/assets/images/newLogo.png" /> -->
+    <div v-if="$route.name==='Home'">
+      <img class="logo" src="@/assets/images/logoWhite.png" />
+    </div>
+    <div v-else>
+      <img class="logo" src="@/assets/images/newLogo.png" />
+    </div>
     <Menu />
     <back-to-top bottom="50px" right="50px">
       <button type="button" class="btn btn-info btn-to-top">
