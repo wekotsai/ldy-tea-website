@@ -24,7 +24,7 @@ a:hover {
 }
 
 .title {
-    margin-top: 5em;
+    margin-top: 3em;
     margin-bottom: 2em;
 }
 
@@ -43,7 +43,7 @@ a:hover {
 /* MENU */
 
 .bm-burger-bars {
-    background-color: #ffffff;
+    background-color: #888888;
     border-radius: 3px;
 }
 
@@ -56,6 +56,10 @@ a:hover {
     background-color:rgb(58, 58, 58, 0.85) !important;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.bm-overlay {
+    background: transparent;
 }
 
 .bm-item-list a {
