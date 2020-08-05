@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img class="logo" src="@/assets/images/newLogo.png" />
+    <img class="logo" src="@/assets/images/logoWhite.png" />
     <Menu />
     <back-to-top bottom="50px" right="50px">
       <button type="button" class="btn btn-info btn-to-top">
