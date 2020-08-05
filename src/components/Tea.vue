@@ -12,6 +12,14 @@
       >
         <li>{{ list.item }}</li>
       </ul>
+        <p class="teaContact">歡迎
+          <a href="tel:+496170961709">來電 </a>或加
+            <a href="http://line.me/ti/p/~ldytea"
+               rel="noopener"
+               target="_blank">
+               LINE好友
+            </a>洽詢
+        <p/>
     </div>
 
     <div v-for="image in images" :key="image.key" class="gallery">
@@ -47,8 +55,7 @@ export default {
         {id: 2, item:'福壽山極品 $1500/四兩'},
         {id: 3, item:'華崗極品 $1800/四兩'},
         {id: 4, item:'大禹嶺極品 $2100/四兩'},
-        {id: 5, item:'梨大院頂級禮盒 $2400 ～ $4200/四兩(二入)'},
-        {id: 5, item:'歡迎來電或加LINE好友洽詢'}
+        {id: 5, item:'梨大院頂級禮盒 $2400 ～ $4200/四兩(二入)'}
       ]
     }
   }
