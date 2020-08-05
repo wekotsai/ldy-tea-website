@@ -37,7 +37,7 @@ a:hover {
 }
 
 .teaContact {
-    margin: 1em 0 3.5em 0;
+    margin: 1.5em 0 3.5em 0;
 }
 
 /* MENU */
@@ -81,6 +81,9 @@ a:hover {
     .gallery img {
         width: 100%;
         height: auto;
+    }
+    .logo {
+        width: 15em;
     }
 }
 
