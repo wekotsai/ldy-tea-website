@@ -12,7 +12,7 @@
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.2.0",
     "core-js": "^2.6.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "formidable": "^1.2.2",
     "mdbvue": "^6.7.1",
     "vue": "^2.6.10",
